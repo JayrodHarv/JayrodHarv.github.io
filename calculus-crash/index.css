@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background-color: black;
+    height: 100%;
+  }
+  
+  #gameCanvasSection {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gameCanvas {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
