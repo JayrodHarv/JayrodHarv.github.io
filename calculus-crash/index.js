@@ -1,4 +1,11 @@
-var stage = createStage(1366, 768);
+// var stage = createStage(1366, 768);
+
+var stage = new Application()
+
+await stage.init({ background: '#1099bb', resizeTo: window });
+
+document.body.appendChild(stage.canvas);
+
 var oneSlyMove = Sound.from({
   url: 'music/OneSlyMove.mp3',
   preload: true,
